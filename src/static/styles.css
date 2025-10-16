@@ -151,9 +151,31 @@ footer {
   border: 1px solid #c5cae9;
 }
 
+
 .participants-list {
   margin-top: 6px;
   margin-left: 18px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.delete-participant {
+  color: #c62828;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 1.1em;
+  transition: color 0.2s;
+  user-select: none;
+}
+.delete-participant:hover {
+  color: #b71c1c;
 }
 
 .participant-badge {
